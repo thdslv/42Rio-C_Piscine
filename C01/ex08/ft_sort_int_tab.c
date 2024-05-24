@@ -6,7 +6,7 @@
 /*   By: thda-sil <thda-sil@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/10 19:36:29 by thda-sil          #+#    #+#             */
-/*   Updated: 2023/09/10 21:06:46 by thda-sil         ###   ########.fr       */
+/*   Updated: 2023/09/18 15:24:08 by thda-sil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,10 @@ void	ft_sort_int_tab(int *tab, int size)
 
 	i = 0;
 	x = size - 1;
-	temp = tab[i];
+	//temp = tab[i];
 	while (i < x)
 	{
-		if (tab[i] > tab[i +1])
+		if (tab[i] > tab[i + 1])
 		{
 			temp = tab[i];
 			tab[i] = tab[i + 1];
@@ -33,7 +33,7 @@ void	ft_sort_int_tab(int *tab, int size)
 	}
 }
 
-/*#include <stdio.h>
+#include <stdio.h>
 
 int	main(void)
 {
@@ -48,4 +48,4 @@ int	main(void)
 		count++;
 	}
 	return (0);
-}*/
+}

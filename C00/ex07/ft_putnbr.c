@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putnbr.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: thda-sil <thda-sil@student42.rio>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/09/05 17:10:05 by thda-sil          #+#    #+#             */
+/*   Updated: 2023/09/16 18:45:27 by thda-sil         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <unistd.h>
 
 void	ft_putchar(char c)
@@ -17,7 +29,7 @@ void	ft_putnbr(int nb)
 	{
 		ft_putchar('-');
 		nb = nb * -1 ;
-		ft_putchar(nb);
+		ft_putnbr(nb);
 	}
 	else if (nb > 9)
 	{
@@ -30,7 +42,7 @@ void	ft_putnbr(int nb)
 
 int	main(void)
 {
-	ft_putnbr(2023);
+	ft_putnbr(5674);
 	ft_putchar('\n');
 	ft_putnbr(-2147483648);
 	ft_putchar('\n');
@@ -39,6 +51,8 @@ int	main(void)
 	ft_putnbr(2147483647);
 	ft_putchar('\n');
 	ft_putnbr(5);
+	ft_putchar('\n');
+	ft_putnbr(-9);
 	ft_putchar('\n');
 	return (0);
 }

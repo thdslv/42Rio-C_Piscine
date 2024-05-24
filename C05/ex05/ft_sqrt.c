@@ -6,7 +6,7 @@
 /*   By: thda-sil <thda-sil@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/18 22:09:26 by thda-sil          #+#    #+#             */
-/*   Updated: 2023/10/10 17:44:51 by thda-sil         ###   ########.fr       */
+/*   Updated: 2023/09/19 21:23:35 by thda-sil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,9 @@ int	ft_sqrt(int nb)
 	return (0);
 }
 
-/*#include <stdio.h>
+#include <stdio.h>
 
 int	main(void)
 {
 	printf("%i", ft_sqrt(0));
-}*/
+}

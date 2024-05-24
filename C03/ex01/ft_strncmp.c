@@ -6,7 +6,7 @@
 /*   By: thda-sil <thda-sil@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/15 19:35:38 by thda-sil          #+#    #+#             */
-/*   Updated: 2023/09/17 15:27:17 by thda-sil         ###   ########.fr       */
+/*   Updated: 2023/09/21 23:04:27 by thda-sil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 	return (0);
 }
 
-/*#include <stdio.h>
+#include <stdio.h>
 
 int	main(void)
 {
@@ -38,4 +38,4 @@ int	main(void)
 	printf("\n%d", ft_strncmp("Helko", "Hello", 4)); //-1
 	printf("\n%d", ft_strncmp("Hello", "Hello", 4)); //0
 	return (0);
-}*/
+}
